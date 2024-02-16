@@ -1,0 +1,20 @@
+{
+  "name": "starter-server",
+  "version": "1.0.0",
+  "description": "A starting point for personal projects using Apollo GraphQL",
+  "main": "src/index.js",
+  "scripts": {
+    "compile": "tsc",
+    "dev": "ts-node-dev --respawn ./src/index.ts",
+    "start": "npm run compile && nodemon ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.4",
+    "nodemon": "^3.0.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
